@@ -9,7 +9,7 @@ public class VehicleTest {
 
     @Before
     public void Before(){
-        zeppelin = new Zeppelin("Atlantica", 10, 100);
+        zeppelin = new Zeppelin("Atlantica", 10, 100, 5000);
     }
 
     @Test

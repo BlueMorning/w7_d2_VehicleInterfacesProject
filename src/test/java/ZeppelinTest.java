@@ -9,7 +9,7 @@ public class ZeppelinTest {
 
     @Before
     public void Before(){
-        zeppelin = new Zeppelin("Atlantica", 10, 100);
+        zeppelin = new Zeppelin("Atlantica", 10, 100, 5000);
     }
 
     @Test
@@ -23,6 +23,10 @@ public class ZeppelinTest {
 
     public void hasMaxSpeed(){
         assertEquals(100, zeppelin.getMaxSpeed());
+    }
+
+    public void hasMaxAltitude(){
+        assertEquals(5000, zeppelin.getMaxAltitude());
     }
 
 
