@@ -1,3 +1,5 @@
+package TransportVehicle;
+
 public abstract class Vehicle {
 
     private String name;

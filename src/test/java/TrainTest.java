@@ -1,3 +1,4 @@
+import TransportVehicle.Train;
 import org.junit.Before;
 import org.junit.Test;
 

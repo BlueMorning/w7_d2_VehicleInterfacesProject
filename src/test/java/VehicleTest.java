@@ -1,3 +1,5 @@
+import TransportVehicle.Vehicle;
+import TransportVehicle.Zeppelin;
 import org.junit.Before;
 import org.junit.Test;
 
